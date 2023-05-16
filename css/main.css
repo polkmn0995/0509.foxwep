@@ -1,0 +1,177 @@
+@charset "utf-8";
+@font-face {
+  font-family: "NanumSquareNeo-Variable";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline-style: none;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Nanum Gothic", "Noto Sans KR", sans-serif;
+  font-size: 15px;
+  color: #1a1a1a;
+  letter-spacing: -0.3px;
+  word-break: keep-all;
+  height: 100vh;
+  background: url(/0509/images/desert\ fox\ bg.jpg) no-repeat center;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(238, 237, 237, 0.836),
+      rgba(238, 235, 235, 0.925)
+    ),
+    url(/0509/images/desert\ fox\ bg.jpg);
+}
+.container {
+  width: 1200px;
+  height: 870px;
+  margin: 0 auto;
+}
+/* 상단 */
+header {
+  width: 1200px;
+  height: 120px;
+  background-color: rgba(247, 199, 144, 0.61);
+  margin: 0 auto;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 3px 3px 4px #cfc3a5d5;
+}
+.logo {
+  display: inline-block;
+  margin-left: 27px;
+}
+.logo img {
+  width: 130px;
+}
+.logo img:hover {
+  scale: 1.1;
+}
+nav {
+  float: right;
+  width: 800px;
+  height: 50px;
+  margin-top: 40px;
+}
+.topMenu ul {
+  width: 1000px;
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+  left: -150px;
+}
+.topMenu ul li {
+  float: left;
+}
+.topMenu ul li a {
+  display: block;
+  padding: 30px 70px;
+  font-size: 19px;
+  color: #383838;
+  font-family: "NanumSquareNeo-Variable";
+}
+.topMenu ul li a:hover {
+  color: rgb(233, 87, 19);
+}
+#top-li a {
+  color: rgb(233, 87, 19);
+}
+/* 메인 */
+.contents {
+  width: 1200px;
+  height: 500px;
+  margin: 60px auto;
+}
+.introduce1 {
+  width: 1000px;
+  height: 240px;
+  margin-top: 60px;
+}
+.introduce1 img {
+  float: left;
+  width: 285px;
+  margin-left: 10px;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 4px #968e7bd5;
+}
+.introduce1 ul {
+  background-color: #eee7e7ad;
+  box-shadow: 3px 3px 4px #968e7b4b;
+  padding: 5px;
+  border-radius: 10px;
+}
+.introduce1 li {
+  font-size: 16.5px;
+  margin: 8px;
+  line-height: 25px;
+  font-family: "NanumSquareNeo-Variable";
+}
+.introduce1 li a {
+  color: rgb(57, 145, 216);
+}
+.introduce1 li a:hover {
+  color: rgb(233, 87, 19);
+  text-decoration: underline #000;
+}
+.introduce2 img {
+  float: right;
+  margin-left: 20px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 4px #968e7bd5;
+}
+.introduce2 {
+  height: 250px;
+  margin-top: 40px;
+  background-color: #eee7e7ad;
+  box-shadow: 3px 3px 4px #968e7b4b;
+  padding: 10px;
+  border-radius: 10px;
+}
+.introduce2 p {
+  font-size: 16px;
+  line-height: 35px;
+  font-family: "NanumSquareNeo-Variable";
+  /* margin-top: 10px;*/
+}
+/* 하단 */
+footer {
+  border-top: 2px solid #a5a5a5;
+  position: relative;
+  bottom: -140px;
+}
+footer .bottomMenu {
+  width: 1200px;
+  height: 50px;
+}
+.bottomMenu ul li {
+  float: left;
+  margin: 15px 20px 0px;
+}
+.bottomMenu ul li a {
+  color: #3b3b3b;
+  font-size: 14px;
+  padding: 0px 10px;
+}
+.bottomMenu ul li a:hover {
+  color: rgb(233, 87, 19);
+}
